@@ -10,6 +10,7 @@ import plotly.graph_objects as go
 
 # Bootstrap theme
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 # App layout
 app.layout = html.Div([
